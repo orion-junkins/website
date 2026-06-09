@@ -1,189 +1,210 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Orion Junkins
+  label: Rendering Researcher
+  email: orionjunkins@gmail.com
+  location: Helsinki, Finland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    MSc student at ETH Zürich specializing in Visual & Interactive Computing with a minor in Machine Learning.
+    Currently a research intern at NVIDIA Helsinki, developing real-time rendering algorithms and writing a master's
+    thesis on the error-correlation tradeoff in ReSTIR.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: orion-junkins
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: orion-junkins
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Eidgenössische Technische Hochschule Zürich (ETH Zürich)
+        location: Zürich, Switzerland
+        url: https://ethz.ch
+        area: Computer Science
+        studyType: MSc
+        start_date: 2023-09
+        end_date: present
+        score: "5.67 / 6"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Major: Visual & Interactive Computing"
+          - "Minor: Machine Learning"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Oregon State University Cascades
+        location: Bend, Oregon
+        url: https://osucascades.edu
+        area: Computer Science
+        studyType: BSc
+        start_date: 2019-11
+        end_date: 2023-06
+        score: "3.99 / 4"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Major: Software Engineering"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: NVIDIA
+        position: Research Intern and Master's Thesis Collaborator
+        location: Helsinki, Finland
+        start_date: 2025-09
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - "Developed a real-time spatial neighbor selection algorithm for ReSTIR, reducing SMAPE by up to 29% at 2--5% overhead."
+          - "Explicitly characterized the variance--covariance tradeoff in ReSTIR, improving the Pareto frontier of noise versus correlation."
+          - "Provided tunable control over spatial and temporal correlations, improving compatibility with downstream denoisers."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Tanium
+        position: Full Stack Data Reporting Intern
+        location: Remote, USA
+        start_date: 2022-06
+        end_date: 2022-09
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Developed server-side data pipelines in Golang for flexible downsampling of temporal data across millions of endpoints."
+          - "Introduced new frontend reporting features in TypeScript and React to increase the actionability of data insights."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Intel
+        position: Computer Vision / Automated Testing Intern
+        location: Remote, USA
+        start_date: 2021-06
+        end_date: 2021-09
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Built a computer vision agent using the TensorFlow Object Detection API to automate nondeterministic GUI interactions."
+          - "Integrated the agent into the GPA's Jenkins CI pipeline, enabling automated regression testing against AAA titles at scale."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Compatibility-Guided Neighbor Selection for ReSTIR"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Orion Junkins
+          - Markus Kettunen
+          - Daqi Lin
+          - Ravi Ramamoorthi
+          - Chris Wyman
+        publisher: "Proceedings of the ACM on Computer Graphics and Interactive Techniques (PACMCGIT) 9(4). To appear at HPG 2026."
+        releaseDate: 2026
+        summary: >
+          Proposed a geometry-based pixel compatibility heuristic for guiding spatial neighbor selection in ReSTIR via
+          weighted reservoir sampling. Reduced SMAPE by 6--29% and temporal covariance by 22--49% at 2--5% overhead,
+          improving the Pareto frontier of ReSTIR's error--correlation tradeoff.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Short-Term River Forecasting with a Stacked Ensemble of Tributary Models"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Patrick J. Donnelly
+          - Orion Junkins
+        publisher: "2022 7th International Conference on Frontiers of Signal Processing (ICFSP), IEEE. Paris, France."
+        releaseDate: 2022
+        url: https://ieeexplore.ieee.org/document/9924877
+        summary: >
+          Developed an efficient river flow forecasting approach using spatially distributed GRUs.
+          Outperformed NOAA 24-hour forecasts with a 2.85% reduction in MAPE.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Theses and Capstones:
+      - company: ETH Zürich
+        position: "Master's Thesis: The Error-Correlation Tradeoff in ReSTIR"
+        location: Helsinki, Finland
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - "Characterized the balance between error, temporal correlation, and spatial correlation in ReSTIR."
+          - "Developed a novel evaluation framework to study the structure and perceptual significance of correlations in rendering."
+          - "To be published August 2026."
+
+      - company: ETH Zürich
+        position: "Semester Thesis: Neural Connectivity During Cognitively Challenging Tasks"
+        location: Zürich, Switzerland
+        start_date: 2024-05
+        end_date: 2025-01
+        highlights:
+          - "Extended prior work studying embodied cognition with EEG."
+          - "Implemented entropy-based synchrony metrics and established a possible neurocorrelate for the relationship between cognitive performance and free gesticulation."
+
+      - company: Oregon State University Cascades
+        position: "Capstone: LevelSage — Real-Time River Flow Rate Forecasting System"
+        location: Bend, Oregon
+        start_date: 2021-04
+        end_date: 2023-06
+        highlights:
+          - "Extended published river forecasting research into a full-stack application."
+          - "Hosted recurring model inference every 6 hours for 15 rivers on AWS with a public-facing React frontend."
+          - "Achieved total system maintenance costs of under $0.25 per model per month."
+
+    Teaching and Mentorship:
+      - company: Oregon State University Cascades
+        position: Undergraduate Capstone Mentor
+        location: Bend, Oregon
+        start_date: 2023-06
+        end_date: 2024-06
+        highlights:
+          - "Mentored a five-student team through replacing GRUs with Transformers in my river forecasting codebase."
+
+      - company: Oregon State University Cascades
+        position: Teaching Assistant, CS475 Parallel Programming
+        location: Bend, Oregon
+        start_date: 2023-01
+        end_date: 2023-06
+        highlights:
+          - "Assisted in crafting lecture content and assignments. Delivered guest lecture on parallelism in Python, Golang, and Rust."
+
+      - company: Oregon State University Cascades
+        position: Teaching Assistant, CS434 Data Mining and Machine Learning
+        location: Bend, Oregon
+        start_date: 2022-01
+        end_date: 2022-12
+        highlights:
+          - "Assisted two semesters. Updated and restructured projects. Delivered guest lectures on Computer Vision and Time Series Forecasting."
+
+    Awards:
+      - title: "ETH + Disney Research Rendering Competition, 2nd Place"
+        date: 2025-01
+        awarder: ETH Zürich / Disney Research
+        url: https://cgl.ethz.ch/teaching/cg24/competition/competition.php
+        summary: "Awarded for implementing RIS, ReSTIR DI, and a realistic camera model in a custom path tracer."
+
+      - title: OSU Cascades Computer Science Distinguished Student
+        date: 2023-06
+        awarder: Oregon State University Cascades
+        url: https://osucascades.edu/commencement/2023-distinguished-student-awards
+
+      - title: Outstanding Lightning Talk Award, CRSS 2023
+        date: 2023-05
+        awarder: OSU Cascades Research and Scholarship Symposium
+
+      - title: Layman Fellowship (Research Grant)
+        date: 2022-09
+        awarder: Oregon State University Cascades
+        summary: "Awarded September 2021 and September 2022."
+
+      - title: Finley Academic Excellence Scholarship
+        date: 2021-09
+        awarder: Oregon State University Cascades
+        summary: "Recurring 2021--2023."
+
+      - title: Randy V Puckett Memorial Scholarship
+        date: 2021-09
+        awarder: Oregon State University Cascades
+        summary: "Recurring 2021--2023."
+
+      - title: Crouch Family Scholarship
+        date: 2021-09
+        awarder: Oregon State University Cascades
+        summary: "Recurring 2021--2023."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Rendering & Graphics
+        level: Advanced
+        icon: fa-solid fa-cube
+        keywords: "Physically-Based Rendering, ReSTIR, Path Tracing, Real-Time Rendering, Slang, HLSL, OpenGL, CUDA"
+
+      - name: Machine Learning
+        level: Proficient
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, GRU/LSTM, CNNs, Object Detection, Time Series Forecasting"
+
+      - name: Programming
+        level: Proficient
+        icon: fa-solid fa-code
+        keywords: "C++, Python, Golang, TypeScript, JavaScript, React, AWS"
 
     Languages:
-      - name: German
+      - name: English
         summary: "Native speaker"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: German
+        summary: "Conversational (B1)"
